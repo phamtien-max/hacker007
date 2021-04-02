@@ -1,0 +1,20 @@
+.tablemax{
+    margin-top: 100px;
+}
+.thongke{
+    margin-top: 125px;
+}
+.tieude{
+    margin-top: 50px;
+}
+.body{
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+.overflow{
+    background-color: #eee;
+    width: 1425px;
+    height: 275px;
+    border: 1px dotted black;
+    overflow: scroll;
+}

@@ -1,0 +1,17 @@
+.tablemax{
+    margin-top: 50px;
+}
+.tieude{
+    margin-top: 25px;
+}
+.body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.overflow{
+    background-color: #eee;
+    width: 1425px;
+    height: 275px;
+    border: 1px dotted black;
+    overflow: scroll;
+}

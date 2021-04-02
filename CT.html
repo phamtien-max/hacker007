@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="CT.css">
+        <title>cấp giấy chứng tử</title>
+    </head>
+    <body>
+        <div class="container"> 
+            <div class="menu">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="http://127.0.0.1:5500/home.html">HOME</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">           
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ACTION
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="http://127.0.0.1:5500/createacc.html">Tạo tài khoản cho người dân</a></li>          
+            <li><a class="dropdown-item" href="http://127.0.0.1:5500/KS.html">Cấp giấy khai sinh</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:5500/doipass.html">Đổi mật khẩu</a></li> 
+            <li><a class="dropdown-item" href="http://127.0.0.1:5500/TK.html">Thống kê nhân khẩu tạm trú</a></li>          
+            <li><a class="dropdown-item" href="http://127.0.0.1:5500/search.html">Tìm kiếm thông tin</a></li>
+          </ul>
+        </li>    
+      </ul>
+      <form class="d-flex" action="http://127.0.0.1:5500/login.html">
+          <button class="btn btn-outline-success" type="submit">LOG OUT</button>
+      </form>
+    </div>
+  </div>
+</nav>
+ </div>
+            <div class="body">
+   <form class="row g-3">
+       <div class="title"><h1>CẤP GIẤY CHỨNG TỬ</h1> </div>
+                              
+       <div class="col-md-6">
+        <label for="inputaddname" class="form-label">name</label>
+        <input type="addname" class="form-control" id="inputaddname">
+      </div>
+  <div class="col-md-4 ">
+    <label for="inputState" class="form-label ">gioitinh</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label for="inputaccountname" class="form-label">date of birth</label>
+    <input type="name" class="form-control" id="inputaccountname">
+  </div>
+
+  <div class="col-md-4 ">
+    <label for="inputState" class="form-label ">dân tộc</label>
+    <select id="inputState" class="form-select">
+      <option selected>kinh</option>
+      <option>...</option>
+    </select>
+  </div>
+
+  <div class="col-md-6">
+    <label for="inputaccountname" class="form-label">date of death</label>
+    <input type="name" class="form-control" id="inputaccountname">
+  </div>
+  <div class="col-md-4 ">
+    <label for="inputState" class="form-label ">nationality</label>
+    <select id="inputState" class="form-select">
+      <option selected>vietnamse</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label for="inputdaterange" class="form-label">date range</label>
+    <input type="daterange" class="form-control" id="inputdaterange">
+  </div>
+  <div class="col-md-6">
+    <label for="inputwhereissued" class="form-label">where issued</label>
+    <input type="whereissued" class="form-control" id="inputwhereissued">
+  </div>
+
+  <div class="col-12 sd">
+    <button type="submit" class="btn btn-primary">save</button>
+    <button type="submit" class="btn btn-primary">delete</button>
+  </div>
+</form>
+        </div>              
+            </div>
+  
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+                integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
+        </script>       
+    </body>
+</html>

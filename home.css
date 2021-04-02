@@ -1,0 +1,14 @@
+.body{
+    background: lightgray;    
+}
+.menu{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.carousel-inner{
+   height: 675px;
+   width: 1550px;
+}
+.home{
+    height:100%
+}
